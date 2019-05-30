@@ -9,6 +9,8 @@ set -o pipefail
 # fail harder
 set -eu
 
+set -x
+
 BIN_DIR=$1
 RUBY_BOOTSTRAP_DIR=$2
 
